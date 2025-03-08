@@ -69,6 +69,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     'https://frontend-yxec.onrender.com',
+    'https://riftonline.vercel.app',
 
 ]
 
@@ -193,7 +194,7 @@ DOMAIN=config('DOMAIN')
 DOMAIN_REMOTE=config('DOMAIN_REMOTE')
 
 
-FRONTEND_URL = config('FRONTEND_URL', default='https://frontend-yxec.onrender.com')
+FRONTEND_URL = config('FRONTEND_URL', default='https://riftonline.vercel.app')
 PAYPAL_TEST = True
 # SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
