@@ -194,7 +194,7 @@ DOMAIN=config('DOMAIN')
 DOMAIN_REMOTE=config('DOMAIN_REMOTE')
 
 
-FRONTEND_URL = config('FRONTEND_URL', default='https://riftonline.vercel.app')
+FRONTEND_URL = config('FRONTEND_URL', default='https://frontend-yxec.onrender.com')
 PAYPAL_TEST = True
 # SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
