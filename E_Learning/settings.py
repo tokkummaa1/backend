@@ -48,7 +48,15 @@ INSTALLED_APPS = [
 SITE_ID = 1
 
 
-
+# settings.py
+CORS_ALLOW_METHODS = [
+    'GET',  # Ensure this is present
+    'POST',
+    'PUT',
+    'PATCH',
+    'DELETE',
+    'OPTIONS'
+]
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # DEFAULT_FROM_EMAIL = 'noreply@yourdomain.com'
