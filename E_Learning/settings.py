@@ -68,7 +68,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    'https://backend-12wd.onrender.com',
+    'https://frontend-yxec.onrender.com/',
 
 ]
 
