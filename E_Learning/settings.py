@@ -68,7 +68,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    'https://771b-198-44-138-170.ngrok-free.app',
+    'https://backend-12wd.onrender.com',
 
 ]
 
