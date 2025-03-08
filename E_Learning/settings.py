@@ -18,7 +18,7 @@ SECRET_KEY = 'django-insecure--c&l*$==owsoz%q!5zh3r&idk(fqbu(malyd@2+x4yt9sy8@u_
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://771b-198-44-138-170.ngrok-free.app']
+CSRF_TRUSTED_ORIGINS = ['https://frontend-yxec.onrender.com']
 
 
 # Application definition
@@ -193,7 +193,7 @@ DOMAIN=config('DOMAIN')
 DOMAIN_REMOTE=config('DOMAIN_REMOTE')
 
 
-FRONTEND_URL = config('FRONTEND_URL', default='http://localhost:5173')
+FRONTEND_URL = config('FRONTEND_URL', default='https://frontend-yxec.onrender.com')
 PAYPAL_TEST = True
 # SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
